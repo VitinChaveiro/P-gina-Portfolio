@@ -1,11 +1,13 @@
 
 .container-slider{
     display: flex;
-    width: 100%;
-    
+    align-items: center;
+    gap: 30px;
+    height: 100vh;
 }
 .title{
     text-align: center;
+    padding-top: 7rem;
 }
 
 .container-images{
@@ -14,8 +16,7 @@
     align-items: center;
     justify-content: center;
     width: 700px;
-    margin-top: 300px;
-    margin-bottom: 300px;
+    
 }
 
 .slider{
