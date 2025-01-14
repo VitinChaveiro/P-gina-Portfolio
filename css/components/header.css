@@ -1,9 +1,10 @@
 header{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 80vh;
     
+    align-items: center;
+    height: 100vh;
+    max-width: 120rem;
+    margin: 0 auto;
 }
 
 header .header__left{
@@ -12,7 +13,6 @@ header .header__left{
 
 header .header__rigth .header__img{
 position: relative;
-line-height: 0;
 }
 
 header .header__rigth .header__img::after{
@@ -30,8 +30,7 @@ header .header__rigth .header__img::after{
 
 header .header__rigth .header__img .vitor {
    border-radius: 0.5rem;
-   min-width: 50rem;
-   max-width: 75%;
+   max-width: 80%;
    
 }
 

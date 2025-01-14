@@ -2,9 +2,7 @@
 .container-slider{
     display: flex;
     width: 100%;
-    align-items: center;
-    justify-content: center;
-    gap: 16px;
+    
 }
 .title{
     text-align: center;
