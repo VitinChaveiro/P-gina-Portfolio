@@ -1,0 +1,46 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+    
+}
+
+header .header__left{
+    max-width: 50%;
+}
+
+header .header__rigth .header__img{
+position: relative;
+line-height: 0;
+}
+
+header .header__rigth .header__img::after{
+   content: "";
+   display: block;
+   width: 50%;
+   height: 50%;
+   border: 1px solid var(--tertiary-color);
+   position: absolute;
+   top: 2rem;
+   right: 7rem;
+   border-radius: 0.5rem;
+   z-index: -1;
+}
+
+header .header__rigth .header__img .vitor {
+   border-radius: 0.5rem;
+   min-width: 50rem;
+   max-width: 75%;
+   
+}
+
+header .header__rigth .header__img .background{
+    position: absolute;
+    top: 2rem;
+    left: 0;
+    z-index: -1;
+    width: 40%;
+
+}
+
