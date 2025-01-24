@@ -2,12 +2,15 @@ header{
     display: flex;
     align-items: center;
     height: 100vh;
-    max-width: 120rem;
+    width: 80%;
     margin: 0 auto;
 }
 
 header .header__left{
-    max-width: 50%;
+    width: 100%;
+}
+.header__rigth{
+    width: 100%;
 }
 
 header .header__rigth .header__img{
@@ -17,8 +20,8 @@ position: relative;
 header .header__rigth .header__img::after{
    content: "";
    display: block;
-   width: 50%;
-   height: 50%;
+   width: 70%;
+   height: 100%;
    border: 1px solid var(--tertiary-color);
    position: absolute;
    top: 2rem;
@@ -29,7 +32,8 @@ header .header__rigth .header__img::after{
 
 header .header__rigth .header__img .vitor {
    border-radius: 0.5rem;
-   max-width: 80%;
+   width: 60vh;
+   height: 80vh;
    
 }
 

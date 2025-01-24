@@ -1,21 +1,21 @@
-
+.about-certificates{
+    height: 75vh;
+}
 .container-slider{
     display: flex;
     align-items: center;
-    gap: 30px;
-    height: 100vh;
+    height: 60vh;
+    width: 100vh;
 }
 .title{
     text-align: center;
-    padding-top: 7rem;
 }
 
 .container-images{
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 700px;
+    width: 800px;
     
 }
 

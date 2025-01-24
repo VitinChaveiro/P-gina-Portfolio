@@ -2,23 +2,17 @@
     scroll-margin-top:20rem ;
     display: flex;
     justify-content: space-between;
-    gap: 16rem;
     max-width: 100vh;
     flex-wrap: wrap;
-    justify-content: center;
     position: relative;
-    left: 350px;
+    margin: 0 auto;
     height: 100vh;
 }
 
 .about .about__left {
-    max-width: 50%;
     flex: 1;
     flex-direction: column;
-}
-
-.about .about__left p {
-    margin: 1rem 0 2rem;
+    margin-right: 11rem;
 }
 
 .about .about__left ul {
@@ -27,8 +21,6 @@
 
 .about .about__rigth {
     flex: 1;
-    max-width:50%;
-    
 }
 .about-title{
     font-size: 6rem;
